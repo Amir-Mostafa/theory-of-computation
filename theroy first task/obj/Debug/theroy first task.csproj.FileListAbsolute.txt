@@ -1,0 +1,11 @@
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\bin\Debug\theroy first task.exe.config
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\bin\Debug\theroy first task.exe
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\bin\Debug\theroy first task.pdb
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\bin\Debug\Fare.dll
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\bin\Debug\Fare.xml
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy first task.csprojResolveAssemblyReference.cache
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy_first_task.Form1.resources
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy_first_task.Properties.Resources.resources
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy first task.csproj.GenerateResource.Cache
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy first task.exe
+c:\users\mosta\onedrive\documents\visual studio 2013\Projects\theroy first task\theroy first task\obj\Debug\theroy first task.pdb
