@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Regex => DFA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+      <a class="navbar-brand" href="#">
+        Theory Of Computation
+      </a>
+      <button class="navbar-toggler text-white " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+    
+      
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto w-50 d-flex justify-content-between   ">
+    
+          <li class="nav-item">
+            <a class="nav-link text-capitalize " href="index.html">home</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="getStrings.html">RE Strings</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="checkStrings.html">Check String</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nfa2dfa.html">RE to DFA</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    <div class="container mt-5 container-body">
+<!-- Body Begin -->
+<link rel="stylesheet" href="./css/automata.css">
+
+
+<div class="row">
+  <div class="form-group">
+    <label for="input_regex" class="col-md-1 control-label">Input: </label>
+    <div class="col-md-11">
+      <input type="text" class="form-control" id="input_regex" placeholder="((ϵ|a)b*)*">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="form-group">
+    <p for="input_regex" class="col-md-12 control-label">Enter String to check</p>
+    <div class="col-md-12">
+      <input type="text" class="form-control" id="input_string" >
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-offset-10 col-md-2">
+    <button id="button_convert" class="btn btn-raised btn-block btn-dark">Convert</button>
+  </div>
+</div>
+<div id="alert_error" class="alert alert-dismissible alert-danger" hidden>
+  <button type="button" class="close" data-dismiss="alert">×</button>
+  <strong>Invalid Grammar</strong>
+  <p id="p_error"></p>
+</div>
+
+<!-- <div class="row">
+  <div id="dfa_table" class="col-xs-12">
+  </div>
+</div> -->
+<svg id="svg" class="">
+  <g></g>
+</svg>
+
+</div>
+
+    
+
+    
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<script src="./js/nfa2dfa.js"></script>
+<script src="./lib/js/d3.v3.min.js"></script>
+<script src="./lib/js/dagre-d3.min.js"></script>
+<script src="./js/lexical.js"></script>
+<script src="./js/automata.js"></script>
+  </body>
+</html>
